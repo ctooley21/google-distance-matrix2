@@ -6,6 +6,9 @@ Please refer to [Google Distance Matrix API](https://developers.google.com/maps/
 
 Unlike similar modules, this one accepts multiple origins and the result data is just like the one returned by the Google API.
 
+## Note
+This is a fork of an unmaintained package created by by [ecteodoro](https://github.com/ecteodoro/google-distance-matrix). I forked this and published to NPM under google-distance-matrix2 to fix a vulnerability with an old version of qs. Happy to delete/merge this into his original package if he comes back.
+
 ## Installation
 
 `npm install google-distance-matrix`

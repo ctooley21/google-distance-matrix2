@@ -2,7 +2,7 @@
 
 var request = require('request'),
   debug = require('debug')("google:dm"),
-  qs = require('qs-google-signature');
+  qs = require('qs-google-signature2');
 
 var validTravelModes = ['driving', 'walking', 'bicycling', 'transit'];
 var validUnits = ['metric', 'imperial'];
